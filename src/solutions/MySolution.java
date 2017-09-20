@@ -13,12 +13,13 @@ public class MySolution implements Solution {
 
     @Override
     public long factorialize(int number) {
-        int result = 1;
+        long result = 1;
         if (number == 0) {
-            return 1;
+            return result;
         } else {
-            for (int i = 1; i <= number; i++) {
-                result = result * i;
+            for (int i = 0; i < number; i++) {
+                result *= (i + 1);
+                System.out.println(result);
             }
         }
         return result;
