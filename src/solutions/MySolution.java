@@ -13,7 +13,15 @@ public class MySolution implements Solution {
 
     @Override
     public long factorialize(int number) {
-        return 0;
+        int result = 1;
+        if (number == 0) {
+            return 1;
+        } else {
+            for (int i = 1; i <= number; i++) {
+                result = result * i;
+            }
+        }
+        return result;
     }
 
     @Override
@@ -43,7 +51,15 @@ public class MySolution implements Solution {
 
     @Override
     public String repeatStringNumTimes(String word, int counter) {
-        return null;
+        String result = "";
+        if (counter <= 0) {
+            return result;
+        } else {
+            for (int i = 0; i < counter; i++) {
+                result += word;
+            }
+        }
+        return result;
     }
 
     @Override
