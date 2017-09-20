@@ -3,7 +3,12 @@ package solutions;
 public class MySolution implements Solution {
     @Override
     public String reverseString(String word) {
-        return null;
+        int i, len = word.length();
+        StringBuilder result = new StringBuilder();
+        for (i = (len -1); i >= 0; i--) {
+            result.append(word.charAt(i));
+        }
+        return result.toString();
     }
 
     @Override
