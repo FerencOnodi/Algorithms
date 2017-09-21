@@ -32,6 +32,11 @@ public class MySolution implements Solution {
 
     @Override
     public int findLongestWord(String word) {
+        String[] split = word.split(" ");
+        int[] values = new int[split.length];
+        for (int i = 0; i < split.length; i++) {
+            System.out.println(split[i]);
+        }
         return 0;
     }
 

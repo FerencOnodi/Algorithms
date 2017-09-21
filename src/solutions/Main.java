@@ -7,6 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
         MySolution solution = new MySolution();
-        solution.factorialize(10);
+        solution.findLongestWord("Hello this is a test");
     }
 }
