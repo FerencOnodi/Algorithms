@@ -150,7 +150,7 @@ public class SolutionTest {
 
     @Test
     public void slasher() throws Exception {
-        assertArrayEquals(new Object[]{3},solution.slasher(new Object[]{1,2,3},3));
+        assertArrayEquals(new Object[]{3},solution.slasher(new Object[]{1,2,3},2));
         assertArrayEquals(new Object[]{1,2,3},solution.slasher(new Object[]{1,2,3},0));
         assertArrayEquals(new Object[]{},solution.slasher(new Object[]{1,2,3},9));
         assertArrayEquals(new Object[]{},solution.slasher(new Object[]{1,2,3},4));

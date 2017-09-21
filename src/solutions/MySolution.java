@@ -1,5 +1,7 @@
 package solutions;
 
+import java.util.Arrays;
+
 public class MySolution implements Solution {
     @Override
     public String reverseString(String word) {
@@ -19,7 +21,6 @@ public class MySolution implements Solution {
         } else {
             for (int i = 0; i < number; i++) {
                 result *= (i + 1);
-                System.out.println(result);
             }
         }
         return result;
@@ -93,7 +94,17 @@ public class MySolution implements Solution {
 
     @Override
     public Object[] slasher(Object[] numbers, int counter) {
-        return new Object[0];
+        if (numbers.length < counter) {
+            return new Object[0];
+        }
+        Object[] result = new Object[numbers.length - counter];
+        for (int i = 0; i < numbers.length; i++) {
+            if (i >= counter - 1) {
+                result[i] = numbers[i];
+            }
+        }
+        return result;
+        //Not working yet, but the solution is not that far, anymore.
     }
 
     @Override
@@ -103,7 +114,15 @@ public class MySolution implements Solution {
 
     @Override
     public int getIndexToIns(Object[] numbers, float number) {
-        return 0;
+        int result = 0;
+        Arrays.sort(numbers);
+        for (int i = 0; i < numbers.length; i++) {
+            if (number > (Integer)numbers[i]) {
+                result = i + 1;
+            }
+        }
+        System.out.println(result);
+        return result;
     }
 
     @Override
