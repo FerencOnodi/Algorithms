@@ -6,7 +6,13 @@ package solutions;
 public class Main {
 
     public static void main(String[] args) {
+        int[][] multi =  new int[][]{
+                {13,27,18,26},
+                {4,5,1,3},
+                {32,35,37,39},
+                {1000,1001,857,1}};
+
         MySolution solution = new MySolution();
-        solution.findLongestWord("Hello this is a test");
+        solution.largestOfFour(multi);
     }
 }

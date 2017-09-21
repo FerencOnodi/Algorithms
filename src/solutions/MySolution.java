@@ -49,7 +49,18 @@ public class MySolution implements Solution {
 
     @Override
     public int[] largestOfFour(int[][] numbers) {
-        return new int[0];
+        int[] result = new int[4];
+        int maxNum= 0;
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers[i].length; j++) {
+                if (numbers[i][j] > maxNum) {
+                    maxNum = numbers[i][j];
+                    result[i] = numbers[i][j];
+                }
+            }
+            maxNum = 0;
+        }
+        return result;
     }
 
     @Override
