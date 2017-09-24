@@ -7,6 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
         MySolution solution = new MySolution();
-        solution.palindrome("*G ör ög *");
+        solution.titleCase("I'm a little tea pot");
     }
 }

@@ -42,7 +42,6 @@ public class MySolution implements Solution {
         for (int i = strippedWord.length() - 1; i >= 0; i--) {
             reverse += strippedWord.charAt(i);
         }
-        
         return strippedWord.equals(reverse);
     }
 
@@ -60,7 +59,18 @@ public class MySolution implements Solution {
 
     @Override
     public String titleCase(String word) {
-        return null;
+        String result = "";
+        for (int i = 0; i < word.length(); i++) {
+            if (i == 0) {
+                result += Character.toUpperCase(word.charAt(i));
+            } else if (word.charAt(i) == ' ') {
+                result += " " + Character.toUpperCase(word.charAt(i + 1));
+                i++;
+            } else {
+                result += Character.toLowerCase(word.charAt(i));
+            }
+        }
+        return result;
     }
 
     @Override
