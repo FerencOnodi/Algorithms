@@ -91,7 +91,11 @@ public class MySolution implements Solution {
 
     @Override
     public boolean confirmEnding(String word, String end) {
-        return false;
+        int suffixLength = end.length();
+        int startSub = word.length() - suffixLength;
+
+        return suffixLength <= word.length() &&
+                word.substring(startSub, word.length()).equals(end);
     }
 
     @Override

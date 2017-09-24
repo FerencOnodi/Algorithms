@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="161909a3-3ecc-4aaf-a221-84dbf2b5cd67" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/solutions/MySolution.class" afterPath="$PROJECT_DIR$/out/solutions/MySolution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/solutions/Main.java" afterPath="$PROJECT_DIR$/src/solutions/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/solutions/MySolution.java" afterPath="$PROJECT_DIR$/src/solutions/MySolution.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="MySolution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/solutions/MySolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="232">
+              <caret line="97" column="68" lean-forward="true" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="108">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -636,20 +635,11 @@
       <workItem from="1505978983556" duration="11329000" />
       <workItem from="1506068613110" duration="595000" />
       <workItem from="1506259092504" duration="526000" />
-      <workItem from="1506259629751" duration="3527000" />
+      <workItem from="1506259629751" duration="4582000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2017.09.21 at 11h 14m 59s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2017.09.21 at 11h 17m 43s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2017.09.21 at 11h 18m 57s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest - 2017.09.21 at 12h 22m 45s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
@@ -671,9 +661,18 @@
     <history-entry file="SolutionTest - 2017.09.24 at 16h 25m 53s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolutionTest - 2017.09.24 at 16h 41m 34s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2017.09.24 at 16h 43m 09s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2017.09.24 at 16h 43m 28s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21987000" />
+    <option name="totallyTimeSpent" value="23042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -837,16 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/solutions/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -855,10 +844,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/solutions/MySolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        <state relative-caret-position="232">
+          <caret line="97" column="68" lean-forward="true" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
           <folding />
         </state>
       </provider>
