@@ -28,7 +28,22 @@ public class MySolution implements Solution {
 
     @Override
     public boolean palindrome(String word) {
-        return false;
+        String strippedWord = "";
+        String baseWord = word.toLowerCase();
+
+        for (int i = 0; i < baseWord.length(); i++) {
+            Character letter = baseWord.charAt(i);
+            if (Character.isDigit(letter) || Character.isAlphabetic(letter)) {
+                strippedWord += letter;
+            }
+        }
+
+        String reverse = "";
+        for (int i = strippedWord.length() - 1; i >= 0; i--) {
+            reverse += strippedWord.charAt(i);
+        }
+        
+        return strippedWord.equals(reverse);
     }
 
     @Override
@@ -121,7 +136,6 @@ public class MySolution implements Solution {
                 result = i + 1;
             }
         }
-        System.out.println(result);
         return result;
     }
 

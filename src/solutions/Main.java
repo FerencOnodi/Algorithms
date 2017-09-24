@@ -7,6 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
         MySolution solution = new MySolution();
-        solution.getIndexToIns(new Object[]{5,3,20}, 5);
+        solution.palindrome("*G ör ög *");
     }
 }
